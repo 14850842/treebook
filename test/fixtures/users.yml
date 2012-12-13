@@ -1,5 +1,11 @@
 sergio:
   first_name: Sergio
   last_name: Pellegrini
-  profile_name: "sergio 124"
+  profile_name: "sergio124"
   email: sergio@plusplusminus.co.za
+
+jim:
+  first_name: Jim
+  last_name: Hoskins
+  profile_name: "jimbo"
+  email: jim@plusplusminus.co.za
