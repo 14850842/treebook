@@ -15,8 +15,6 @@ class User < ActiveRecord::Base
   format: { with: /^[a-zA-Z0-9_-]+$/,message: "Must be formatted"}
 
   has_many :statuses
-  has_many :userfriendships
-  has_many :friends,  through: :user_friendships
 	
 	def full_name
 		first_name + " " + last_name
